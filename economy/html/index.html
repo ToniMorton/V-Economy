@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	</head>
+	<body>
+	
+		<div id="cashdisplay">
+			<a id="displaycash" style="color:#85bb65; text-align:center;">$9999999</a>
+		</div>
+		
+		<div id="container">
+			<br>
+			<img src="maze.png"></img>
+			<br>
+			<br>
+			<hr>
+			<br>
+			<div style="clear: both">
+			<h5 style="color:white; font-style:helvetica; float:left">Balance:</h5>
+			<h5 id="balance" style="color:#85bb65; font-style:helvetica; float:right">$0</h5>
+			</div>
+			<br>
+			<br>
+			<br>
+			<hr>
+			<br>
+			<div>
+				<input id="amount" style="color:white; text-align:center; background-color:#2C2F33" placeholder="Amount"></input>
+				<br>
+				<br>
+				<button class="waves-effect waves-light btn-small" style="min-width:187px" id="withdraw">Withdraw</button>
+				<button class="waves-effect waves-light btn-small" style="min-width:187px" id="deposit">Deposit</button>
+				<button class="waves-effect waves-light btn-small" style="min-width:187px" id="transfer">Transfer</button>
+				<br>
+				<br>
+				<button class="waves-effect waves-light btn-small" style="min-width:187px" id="history">Transaction History</button>
+			</div>	
+			<br>
+			<br>
+		</div>
+		</div>
+
+        <script src="./index.js" type="text/javascript"></script>
+		<script>
